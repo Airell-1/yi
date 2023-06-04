@@ -1,0 +1,283 @@
+/* 所有元素css */
+* {
+    margin: 0px;
+    padding: 0px;
+    /* 外边距，内边距*/
+}
+
+body {
+    background-color:#E5E5E5;  
+    /* 背景颜色 */
+
+}
+/* 整体页面css */
+#bigbox {
+    width: 1000px;
+    margin: 0 auto;
+    -moz-box-shadow: 2px 2px 5px #333333;
+    -webkit-box-shadow: 2px 2px 5px #333333;
+    box-shadow: 2px 2px 5px #333333;
+    /* 宽度，外边距，边框阴影 */
+}
+/* 页眉区css */
+#title {
+    position: relative;
+    width: 1000px;
+    font-size: 0px;
+    /* 相对定位，宽度，字体大小 */
+}
+
+#title>img {
+    width: 1000px;
+    height: 104px;
+    /* 只用于子元素 */
+}
+
+#title div img {
+    position: absolute;
+    width: 80px;
+    top: 12px;
+    left: 50px;
+    border-radius: 50%;
+    /* 绝对定位，图片宽度，距顶高度12px，距左50px ，边框圆角*/
+}
+/* 第二块分区css */
+#mian {
+    background-color: #fff;
+    padding-top: 10px;
+    font-size: 0px;
+    /* 背景颜色，内边距顶，字体大小 */
+}
+
+#mian>div {
+    font-size: 16px;
+    /* 字体大小 */
+}
+/* 导航区css */
+#mian_left {
+    width: 180px;
+    display: inline-block;
+    height: 390px;
+    /* 宽度，内联块，高度 */
+}
+/* 超链接css */
+#mian_left a {
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+    background: #5B7E98;
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+    /* 内联块，文本居中，宽度，背景颜色， */
+}
+/* 超链接被激活时css */
+#mian_left a:hover {
+    color: #171717;
+    font-weight: bold;
+}
+
+/* 导航下方图片区css */
+#bg2 {
+    margin-top: 10px;
+    width: 160px;
+    margin-left: 10px;
+    height: 210px;
+    background-color: #171717;
+    border-radius: 4px;
+}
+
+#bg2 img {
+    width: 100%;
+    height: 100%;
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+} 
+
+/* 导航右侧图片区css */
+#mian_right {
+    height: 370px;
+    width: 810px;
+    background-color: #171717;
+    display: inline-block;
+    border-radius: 4px;
+    /* 内联块*/
+}
+
+.content {
+    width: 810px;
+    height: 370px;
+    position: relative;
+    margin: 0 auto;
+    /* 相对定位 */
+}
+.content img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 第三块分区css */
+#main2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 0px;
+    width: 1000px;
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    /* 弹性布局 */
+}
+
+#main2 p {
+    font-size: 16px;
+}
+
+#tupian {
+    display: inline-block;
+    text-align: center;
+    margin-left: 24px;
+    line-height: 30px;
+    /* 内联块 */
+}
+
+#tupian img {
+    height: 200px;
+    border-radius: 4px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 24px !important; 
+    /* 增加样式的权重 */
+    width: 24px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #3F6EA9;
+    line-height: 50px;
+    margin-right: 40px;
+}
+
+
+/* 第四块分区css */
+#main3 {
+    position: relative;
+    width: 1000px;
+    height: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F1F1F1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* 相对定位 */
+}
+
+/* 表格css */
+table{
+    margin-left: 30px; 
+}
+
+th {
+    padding: 7px 3px;
+    font-size: 14px;
+    text-align: right;
+}
+
+td{
+    padding: 7px 3px;
+    font-size: 14px;
+}
+
+#main3 p {
+    font-size: 14px;
+    line-height: 35px;
+    margin-left: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 500px;
+}
+
+#main3 span {
+    font-weight: bold;
+}
+
+/* 页脚区css */
+footer {
+    width: 1000px;
+    text-align: center;
+    line-height: 60px;
+    background: #525252;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* hometown、hobby的额外css */
+#main4 {
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F1F1F1;
+}
+
+#main4 p {
+    width: 980px;
+    margin-left: 10px;
+    text-indent: 28px;
+    font-size: 16px;
+    line-height: 30px;
+    /* 宽度，左外边距，文本缩进，字体大小，行高 */
+}
+
+#main4 span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* liuyan的css */
+#main5 {
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 50px;
+    background-color: #F1F1F1;
+}
+
+#main5 h3 {
+    text-align: center;
+}
+/* 表单css，采用表格布局 */
+form{
+    display: table;
+    margin: auto;
+    /* 将外边距设为auto，便于表格位于中间 */
+}
+
+div.tableRow {
+	display: table-row;
+    font-size: 80%;
+    font-weight: bold;
+    /* 表格行，相对定位 */
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+    
+}
+div.tableRow p:first-child {
+	text-align: right;
+} 
